@@ -7,34 +7,35 @@ public class ImcProject {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter your weight in kilograms (Use , for decimals): ");
+        
+        System.out.println("Introduzca su peso en kilogramos (Utilizar , para los decimales): ");
         float weight = scanner.nextFloat();
-        System.out.println("Your weight is: " + weight + " Kgs.");
+        System.out.println("Su peso es: " + weight + " Kgs.");
 
-        System.out.println("Enter your height in meters (Use , for decimals): ");
+        System.out.println("Introduzca su altura en metros (Utilizar , para los decimales): ");
         float height = scanner.nextFloat();
-        System.out.println("Your height is: " + height + " meters.");
+        System.out.println("Su altura es: " + height + " meters.");
 
         float imc = (float) (weight / Math.pow(height, 2));
 
-        System.out.println("Your Body Mass Index is: " + imc);
+        System.out.println("Su índice de masa corporal es: " + imc);
 
         if (imc < 16.0) {
-            System.out.println("You have severe thinness.");
+            System.out.println("Tienes una delgadez severa.");
         } else if (imc >= 16.0 && imc < 17.0) {
-            System.out.println("You have moderate thinness.");
+            System.out.println("Tienes una delgadez moderada.");
         } else if (imc >= 17.0 && imc < 18.5) {
-            System.out.println("You have mild thinness.");
+            System.out.println("Tienes una delgadez leve.");
         } else if (imc >= 18.5 && imc < 25.0) {
-            System.out.println("You have normal weight.");
+            System.out.println("Tiene un peso normal.");
         } else if (imc >= 25.0 && imc < 30.0) {
-            System.out.println("You are overweight.");
+            System.out.println("Tienes sobrepeso.");
         } else if (imc >= 30.0 && imc < 35.0) {
-            System.out.println("You have obesity class I.");
+            System.out.println("Tienes obesidad clase I.");
         } else if (imc >= 35.0 && imc < 40.0) {
-            System.out.println("You have obesity class II.");
+            System.out.println("Tienes obesidad clase II.");
         } else if (imc >= 40) {
-            System.out.println("You have obesity class III.");
+            System.out.println("Tienes obesidad clase III.");
         }
 
         scanner.close();
