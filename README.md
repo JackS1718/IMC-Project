@@ -13,7 +13,7 @@ Implementar lógica utilizando fórmulas adecuadas.
 
 * llamamos al proyecto «IMC project» con una clase pública.
 
-* Empecé un método main con «public static void main(String[] args) {»
+* Empezamos un método main con «public static void main(String[] args) {»
 
 * Para utilizar el escáner, necesitaba una instancia de la clase escáner con: «Scanner scanner = new Scanner(System.in);»
 
