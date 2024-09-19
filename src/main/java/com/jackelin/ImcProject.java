@@ -7,11 +7,6 @@ public class ImcProject {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> 794b9569974b7b16f8a7609cd90659918c398923
         System.out.println("Introduzca su peso en kilogramos (Utilizar , para los decimales): ");
         float weight = scanner.nextFloat();
         System.out.println("Su peso es: " + weight + " Kgs.");
@@ -45,8 +40,4 @@ public class ImcProject {
         scanner.close();
 
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 794b9569974b7b16f8a7609cd90659918c398923
